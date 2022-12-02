@@ -1,0 +1,16 @@
+.news-item__img {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-item__content {
+  margin-right: 20px;
+} 
+
+@media screen and (max-width: 500px) {
+  .news-item {
+    display: block;
+  }
+}
